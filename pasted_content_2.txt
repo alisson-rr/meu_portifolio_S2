@@ -1,0 +1,30 @@
+mais infos sobre o hipisto 
+🐴 App de Gestão de Torneios de Hipismo
+🔍 Detalhes do projeto
+Aplicativo multiplataforma em fase avançada, voltado para digitalizar a gestão de torneios e facilitar a operação de competições.
+
+Problema resolvido
+Beneficios alcançados
+Funcionalidades-chave:
+Cadastro de atletas e acompanhamento de provas
+Gestão de competições por hípicas e federações
+Usabilidade voltada para uso em tempo real, durante os eventos
+
+Arquitetura híbrida:
+Bubble no front de torneios
+FlutterFlow para interface de uso geral... 
+🔒 Nome do projeto e do cliente não podem ser divulgados por contrato.
+
+coloca esse projo aqui tb
+Plataforma Jurídica
+🧑‍⚖️  Iuris Petições
+🔍 Detalhes do projeto
+Plataforma desenvolvido para conectar advogados a redatores jurídicos especializados em petições.
+Funcionalidades-chave:
+Gestão de peticionadores e fluxo interno de produção
+Controle de prazos, cupons, pagamentos e saldo
+Dashboard com visão geral do negócio
+Área do cliente para envio e acompanhamento de demandas
+
+Tecnologia: Bubble
+🎯 Foco em automação, rastreabilidade e performance.

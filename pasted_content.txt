@@ -1,21 +1,193 @@
-sobre os texto eu nao gostei, usa esses aqui ou algo bem semelhante
-#Desenvolvedor Low-Code & Automações
-Seu conteúdo transforma.
+✅ 1. Ajustes de espaçamento (Geral)
+Menu: aumenta o espaçamento entre os itens (uns 24px entre cada link já ajuda). E deixa mais afastado do topo.
+
+Hero: a foto tá meio colada no texto. Dá uma “respiro” — pode afastar uns 32px pra direita.
+
+Textos: aumenta o espaçamento entre parágrafos e linhas (linha com line-height: 1.6 ou 1.8 fica mais agradável).
+
+
+
+🧠 2. Hero – Novo Texto com CTA Impactante
+
+
+Seu conteúdo transforma.  
 Meu trabalho é tirar os bloqueios do caminho.
-Oi eu sou Gok... Alisson, dev low-code especialista em soluções práticas.
-Crio fluxos inteligentes pra você ganhar tempo, escalar com leveza e focar no que realmente importa: vender, entregar e crescer.
-Já passou da hora de parar de apagar incêndio todo dia, né?
+
+Sou Alisson, especialista em low-code e automações.  
+Crio soluções práticas pra destravar seu negócio, escalar com leveza e focar no que importa: vender, entregar e crescer.
+
 🔥 Bora destravar seu projeto?
+→ Sugestão: troca a cor da palavra "bloqueios" por algo tipo vermelho ou pink intenso pra reforçar contraste emocional com o "transforma" em roxo.
 
-Projetos mais desafiadores.
-Cases que exigiram criatividade, performance e um pouquinho de café extra ☕
 
-O que eu resolvo por aqui
-⚡ Velozes no Dev, Furiosos na Entrega
-Criação de sistemas completos com low-code, entregues com agilidade e aquele cuidado que você só vê em projeto próprio.
- 
-🔄 Automações que economizam tempo e paciência
-Integro plataformas, crio fluxos e tiro tarefas repetitivas da sua frente. Você foca no que importa, eu cuido do resto.
- 
-📊 Dashboards e áreas de gestão sem dor de cabeça
-Você enxerga o que precisa, do jeito que precisa. Organização, performance e rastreabilidade de um jeito leve.
+
+😎 3. Sobre – Versão com personalidade
+
+
+💬 Fala real:
+
+Minha cabeça funciona no modo turbo.  
+TDAH? Tenho sim — e é por isso que penso rápido, conecto ideias fora do padrão e crio soluções que economizam tempo de verdade.
+
+Isso significa que você vai ter alguém direto ao ponto, que entende seu ritmo e entrega fluxo sem enrolação.
+
+Já trabalhei com apps robustos, automações que salvam tempo todo dia e soluções prontas pra escalar.  
+E agora, quero aplicar isso no seu projeto.
+
+
+
+   4.0 - usar em um estilo semelhante a imagem de fundo, tb estou enviando o código q foi usado (para vc se inspirar e usar o que for útil, mas melhore o espaçamento, os ícones do bubble esta errado e o do flutterflow (não sei como esta o svg q estou enviando)
+CODIGO USADO:
+import { Badge } from '@/components/ui/badge';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Code, SmartToy, Zap, Database, Figma, Link2, Stars } from 'lucide-react';
+
+// Lista de habilidades atualizada para linguagem acessível
+const skills = [
+  { name: 'Bubble', level: 'Especialista', description: 'Construo sistemas web completos sem precisar programar do zero.', icon: Code },
+  { name: 'FlutterFlow', level: 'Avançado', description: 'Crio apps mobile profissionais e prontos para publicação.', icon: SmartToy },
+  { name: 'Make & n8n', level: 'Avançado', description: 'Automatizo tarefas repetitivas para você ganhar tempo.', icon: Zap },
+  { name: 'Supabase', level: 'Avançado', description: 'Banco de dados seguro que organiza tudo de forma simples.', icon: Database },
+  { name: 'Integrações', level: 'Avançado', description: 'Faço suas ferramentas falarem entre si, sem dor de cabeça.', icon: Link2 },
+  { name: 'Design & UX', level: 'Avançado', description: 'Desenvolvo interfaces intuitivas e agradáveis para usuários.', icon: Figma },
+];
+
+export default function SkillsSection() {
+  return (
+    <section id="skills" className="py-16 bg-transparent">
+      <div className="max-w-6xl mx-auto px-4 lg:px-8">
+        <div className="flex flex-col items-center mb-6">
+          <Stars size={32} className="text-purple-400 mb-2" />
+          <h2 className="text-3xl sm:text-4xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400">
+            Ferramentas que eu domino
+          </h2>
+        </div>
+        <p className="text-center text-gray-500 mb-12">
+          Trabalho com ferramentas que aceleram o desenvolvimento e deixam tudo mais simples — tanto para você quanto para o usuário final.
+        </p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          {skills.map((skill) => (
+            <Card
+              key={skill.name}
+              className="flex flex-col h-full bg-white/5 border border-purple-800/30 rounded-2xl shadow-md hover:shadow-lg transition-shadow duration-300"
+            >
+              <CardHeader className="flex justify-between items-center">
+                <div className="flex items-center space-x-2">
+                  <skill.icon size={24} className="text-purple-400" />
+                  <CardTitle className="text-xl font-semibold text-gray-100">
+                    {skill.name}
+                  </CardTitle>
+                </div>
+                <Badge variant="secondary" className="bg-purple-600 text-white">
+                  {skill.level}
+                </Badge>
+              </CardHeader>
+              <CardContent className="flex-grow pt-2">
+                <p className="text-gray-400">
+                  {skill.description}
+                </p>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+)
+🧰 4.1 Ferramentas que eu domino
+💡 Trabalho com ferramentas que aceleram o desenvolvimento e deixam tudo mais simples — tanto pra você quanto pro usuário final.
+
+Bubble – onde construo sistemas completos rápido como você nunca viu.
+
+FlutterFlow – crio apps pra celular com aparência profissional e prontos pra loja.
+
+Make – uso pra automatizar aquelas tarefas chatas e repetitivas (tipo mágica, só que real).
+
+Supabase – banco de dados que guarda e organiza suas informações com segurança.
+
+Firebase – uso pra login, envio de mensagens e tudo que deixa um app completo.
+
+Integrações via API – faço diferentes ferramentas “conversarem” entre si, sem dor de cabeça.
+
+⚙️ 4.2 Extras que ajudam no fluxo
+Crio lógicas simples pra resolver problemas complexos.
+
+Organizo as informações do jeito certo pra tudo funcionar rápido e direitinho.
+
+Conecto com ferramentas que você já usa (WhatsApp, Notion, Google Sheets, Banco Inter...).
+
+E faço tudo isso rodar no automático pra te poupar tempo todo dia.
+
+
+
+🎯 5.0 Projetos em Destaque
+📌 Cases que exigiram criatividade, performance e um pouquinho de café extra ☕
+
+──────────────────────────────────────────────
+🐴 App de Gestão de Torneios de Hipismo
+[ Bubble ] [ Supabase ] [ UI/UX ] [ Plataforma esportiva ]
+
+[ TEXTO À ESQUERDA ]
+🐴 App de Gestão de Torneios de Hipismo
+🔒 Projeto confidencial
+🛠️ Bubble | Supabase | UI/UX | Plataforma esportiva
+
+[Texto à esquerda]
+Plataforma criada pra digitalizar torneios de hipismo, usada por federações e hípicas em tempo real.
+Inclui cadastro de atletas, acompanhamento de provas e interface otimizada pra eventos ao vivo.
+Teve redesenho total da UI e reestruturação técnica pra lidar com grande volume de dados e acessos simultâneos.
+
+
+                         [ IMAGEM À DIREITA ]
+──────────────────────────────────────────────
+⚖️ Iuris Petições – Plataforma para advogados
+[ Bubble ] [ MVP ] [ Automação ]
+
+[ IMAGEM À DIREITA  ]
+
+                         [ TEXTO À ESQUERDA]
+Conecta advogados a redatores jurídicos de forma prática.
+• Controle de prazos e pagamentos
+• Dashboard com visão do negócio
+• Área do cliente pra envio e acompanhamento
+• Foco em rastreabilidade e fluidez
+
+🌐 [ Acessar projeto ]
+──────────────────────────────────────────────
+🧵 Fixwear – App de serviços de costura
+[ Bubble ] [ Marketplace ] [ API Asaas ] [ WhatsApp ]
+
+[ TEXTO À ESQUERDA ]
+App que conecta clientes e costureiros com agilidade.
+• Filtro por localização
+• Painel para cliente, costureiro e admin
+• Integração com Asaas pra pagamentos e resgates
+• Notificações automáticas via WhatsApp
+
+🌐 [ Acessar projeto ]
+
+                         [ IMAGEM À DIREITA ]
+──────────────────────────────────────────────
+
+📦 5.1 Outros projetos entregues
+
+Além dos cases em destaque, já desenvolvi mais de:
+
+✅ 29 projetos concluídos  
+🔄 12 automações integradas 
+📱 16 apps mobile  
+
+Cada um deles criado sob medida, com foco no que mais importa:  
+**resolver o problema e fazer o negócio rodar com leveza.**
+
+5.2 Em parceria com WA project
+Mais de 8 projetos desenvolvidos, incluindo sistemas para eventos, gestão e automações.
+
+
+6.0 em vez de "Pense simples, mas faça a diferença.
+btn: Vamos conversar"
+coloca "Você sabe onde quer chegar.
+Juntos encurtamos esse caminho.
+
+👉 Vamos falar sobre seu projeto?"

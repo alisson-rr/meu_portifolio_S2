@@ -1,0 +1,85 @@
+
+🧩 Seção: Projetos em Destaque
+Instrução geral:
+Cada projeto deve ocupar 100vh ou próximo disso.
+Layout em formato de “tela cheia por projeto”, com scroll vertical suave.
+Cada seção é um bloco isolado, com respiro e foco total.
+
+🎯 Estrutura de cada tela de projeto (formato para IA ou Dev)
+markdown
+Copiar
+Editar
+🟪 Tamanho da seção: 
+Full height (min-height: 100vh), com padding interno de ~80px (top/bottom)
+
+🔲 Layout: 
+Grid com 2 colunas (imagem + conteúdo)
+Alternar imagem à direita e à esquerda a cada projeto (zig-zag visual)
+
+🖼️ Imagem do projeto: 
+- Deve ocupar 50% da largura
+- Bordas arredondadas (12-16px)
+- Pode ter um leve efeito de entrada (zoom-in ou fade)
+
+📄 Conteúdo (50% da largura):
+- Título do projeto com ícone (ex: 🐎 ou ⚖️)
+- Badge de confidencialidade (se houver)
+- Tags em formato pill (Bubble, Supabase, etc.)
+- Parágrafo descritivo curto, direto
+- Se aplicável, link do projeto com ícone (🔗 ou ➜)
+
+✨ Animações sugeridas:
+- Conteúdo: `fade-up` ou `slide-left/right`
+- Imagem: `zoom-in` ou `slide-in`
+
+🎨 Cores:
+- Fundo dark
+- Textos em branco ou cinza claro
+- Destaques em roxo/rosa conforme branding
+
+🧠 Exemplo aplicado (projeto do Hipismo):
+Imagem: à direita
+
+Conteúdo à esquerda:
+
+css
+Copiar
+Editar
+🐎 App de Gestão de Torneios de Hipismo  
+[ Projeto confidencial ]
+[ Bubble ] [ Supabase ] [ UI/UX ] [ Plataforma esportiva ]
+
+Plataforma criada para digitalizar torneios de hipismo...
+-------------------------
+
+Bloco tipo “Resumo de impacto” (hero de métricas)
+Faz um painel grandão com dados visuais estilo dashboard minimalista:
+
+
+🚀 Resultados que entregam valor
+
+📦 +29 sistemas prontos 
+⚙️ +12 automações fluindo sem dor de cabeça
+📱 +16 apps mobile em produção
+🤝 +8 projetos com a WA Project
+
+em baixo (manter os dois no mesmo bloco, mas separado dos projetos):
+Em parceria com WA project
+Mais de 8 projetos desenvolvidos, incluindo sistemas para eventos, gestão e automações.
+
+🟣 Layout:
+
+Não quero aquela linhas separado
+
+Cada número em destaque (bem grande, talvez animado)
+
+Ícones com cor roxa/verde como contraste
+
+Texto abaixo pequeno e direto
+
+Tudo centralizado, ocupando uma seção inteira
+
+
+--------------
+
+trocar a frase do ultimo cta de "👉 Vamos falar sobre seu projeto?" para "Me chama, bora fazer acontecer."
